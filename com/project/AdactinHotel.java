@@ -17,8 +17,8 @@ public class AdactinHotel extends BaseClass {
 		BaseClass.click(RepositoryClass.byId("location"));
 		BaseClass.waitTime(2000);
 		BaseClass.selectDropdownByVisibleText(RepositoryClass.byId("location"),"London");
-		BaseClass.waitTime(2000);
-		//BaseClass.waitTime(4000);
+		//BaseClass.waitTime(2000);
+		BaseClass.waitTime(4000);
 	}
 	
 	
